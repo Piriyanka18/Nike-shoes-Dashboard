@@ -1,0 +1,5 @@
+Star Rating = 
+VAR FullStar = "★"
+VAR EmptyStar = "☆"
+VAR Rating = [Rating]  RETURN
+REPT(FullStar, Rating) & REPT(EmptyStar, 5 - Rating)
